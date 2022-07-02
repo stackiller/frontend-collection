@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Tags básicas -->
+  <meta charset="utf-8">
+
+  <title> Sidenav </title>
+  
+  <!-- Tags para mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- CSS -->
+  <!-- Definições gerais -->
+  <link rel="stylesheet" href="settings.css"/>
+  
+  <!-- Sidenav -->
+  <link rel="stylesheet" href="sidenav.css"/>
+
+</head>
+<body>
+
+  <!-- Sidenav -->
+  <div id="sidenav-w" class="sidenav-w row container-full sidenav-toggled">
+    <div class="sidenav column">
+      <a href="#one"> one </a>
+      <a href="#two"> two </a>
+      <a href="#three"> three </a>
+      <a href="#four"> four </a>
+      <a href="#five"> five </a>
+    </div>
+    <div class="sidenav-backG" onclick="navbar_toggler()"></div>
+  </div>
+
+  <!-- Páginas -->
+  <div id="one" class="one column container-full">
+    <a class="#" onclick="navbar_toggler()">
+      <h1> one, click me <h1>
+    </a>
+  </div>
+  
+  <div id="two" class="two column container-full">
+    <a class="#" onclick="navbar_toggler()">
+      <h1> two, click me <h1>
+    </a>
+  </div>
+  
+  <div id="three" class="three column container-full">
+    <a class="#" onclick="navbar_toggler()">
+      <h1> three, click me <h1>
+    </a>
+  </div>
+  
+  <div id="four" class="four column container-full">
+    <a class="#" onclick="navbar_toggler()">
+      <h1> four, click me <h1>
+    </a>
+  </div>
+  
+  <div id="five" class="five column container-full">
+    <a class="#" onclick="navbar_toggler()">
+      <h1> five, click me <h1>
+    </a>
+  </div>
+  
+  <!-- Javascript -->
+  <script src="sidenav.js"></script>
+</body>

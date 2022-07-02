@@ -1,0 +1,107 @@
+/* Fontes - Belgrano, para deixar mais bonito, rs */
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&display=swap');
+
+/* Root settings  */
+:root {
+  font-size: 16px;
+}
+
+/* Definições gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+/* Definição de fontes */
+body, div, button, ul, li, a, p {
+  font-family: 'Belgrano', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Belgrano', serif;
+  font-weight: normal;
+}
+
+h1 { font-size: 2.8rem; }
+h2 { font-size: 2.6rem; }
+h3 { font-size: 2.4rem; }
+h4 { font-size: 2.2rem; }
+h5 { font-size: 2rem };
+h6 { font-size: 1.8rem; }
+
+p, a { font-size: 1.25rem; }
+
+li, ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Define o posicionamento das imagens
+usadas como fundo das divs */
+div {
+  background-size: cover;
+  background-origin: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Título, subtítulo e divisor de textos */
+.title {
+  margin: 5px 0px;
+  font-weight: normal;
+}
+
+.subtitle { font-weight: normal; }
+
+.text-shadow { text-shadow: 0 4px 4px rgba(0 0 0 / 25%); }
+
+.shadow { box-shadow: 0 4px 4px rgba(0 0 0 / 25%); }
+
+/* Classes de Alinhamento */
+.row, .column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* Container - classes de encapsulamento */
+.container, .container-full {
+  width: 80%;
+  height: 100%;
+  max-width: 1800px;
+  margin: auto;
+}
+
+.container-full {
+  width: 100%;
+}
+
+.one, .two, .three, .four, .five {
+  height: 100vh;
+}
+
+.one { background: #d1c4e9; }
+.two { background: #b39ddb; }
+.three { background: #9575cd; }
+.four { background: #7e57c2; }
+.five { background: #673ab7; }

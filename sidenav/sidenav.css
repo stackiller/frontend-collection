@@ -1,0 +1,38 @@
+/* Sidenav - menu retrátil para celulares */
+.sidenav-w {
+  z-index: 30;
+  position: fixed;
+  transition: all 0.45s ease-in-out;
+}
+
+.sidenav {
+  min-width: 300px;
+  align-items: flex-start;
+  border: 1px solid rgb(39 44 31 / 98%);
+  background: #7c43bd;
+}
+
+.sidenav a {
+  width: 100%;
+  padding: 15px 30px;
+  color: white;
+}
+
+.sidenav a:focus, .sidenav a:hover {
+  color: #343a28eb;
+  background: white;
+}
+
+.sidenav-backG {
+  width: 100%;
+}
+
+/* Sidenav - modo retratado */
+.sidenav-toggled {
+  transform: translateX(-100%);
+}
+
+/* Definições gerais do Sidenav */
+.sidenav-w, .sidenav, .sidenav-backG {
+  height: 100%;
+}
